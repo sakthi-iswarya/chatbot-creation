@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "Happy",
+      "patterns": [
+        "I am Happy",
+        "I am more happiest person",
+        "I love to sing song"
+      ],
+      "responses": [
+        "You're happy today, then. It benefits your health.",
+        "Good"
+      ]
+    },
+    {
+      "tag": "Sad",
+      "patterns": [
+        "I am sad",
+        "I am alone",
+        "i feel lonely",
+        "I need to Cry"
+      ],
+      "responses": [
+        "Avoid being this way; it is bad for your health.",
+        "Relax, everything will be OK."
+      ]
+    },
+    {
+      "tag": "Travel",
+      "patterns": [
+        "I'm going for a walk outside.",
+        "I'm heading out on a tour."
+      ],
+      "responses": [
+        "it's a nice day outside.",
+        "enjoy"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
